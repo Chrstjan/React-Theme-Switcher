@@ -1,4 +1,4 @@
-import { useContext } from "react";
+import { useContext, useEffect } from "react";
 import { ThemeContext } from "../context/ThemeContext";
 import { Wrapper } from "../components/Wrapper/Wrapper";
 import { Button } from "../components/Button/Button";
