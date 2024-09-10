@@ -1,0 +1,17 @@
+.headerStyling {
+    display: block;
+    background: #ddd;
+    padding: 0.8rem;
+
+    &.darkMode {
+        background: #1c1c1c;
+        
+        a {
+            color: #fff;
+        }
+    }
+
+    &.lightMode {
+        @extend .headerStyling;
+    }
+}

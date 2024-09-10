@@ -1,0 +1,15 @@
+.wrapperStyling {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #eee;
+
+    &.darkMode {
+        background: #000;
+    }
+
+    &.lightMode {
+        background: #eee;
+    }
+}
